@@ -6,6 +6,8 @@ def alvas(ev, ho, nap):
         return print("Nincs ilyen dátum")
     if nap>honap[ho-1] or nap<1:
         return print("Nincs ilyen dátum")
-
-
-alvas(2000, 2, 29)
+    if(ho==12):
+        ej=365+31-nap
+    ej=6+honap[ho-1]-nap;
+    return print(ej)
+alvas(2000, 11, 29)
