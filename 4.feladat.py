@@ -3,8 +3,9 @@ def alvas(ev, ho, nap):
     if(ev%4== 0):
         honap[1] += 1
     if ho>12 or ho<1:
-        return print("Nincs ilyen hónap")
+        return print("Nincs ilyen dátum")
+    if nap>honap[ho-1] or nap<1:
+        return print("Nincs ilyen dátum")
 
 
-
-alvas(2000, 4, 5)
+alvas(2000, 2, 29)
