@@ -1,5 +1,6 @@
-def alvas(ev,ho,nap)
+def alvas(ev,ho,nap):
     honap=[31,28,31,30,31,30,31,31,30,31,30,31]
-    if(ev%4==0)
+    if(ev%4==0):
         honap[1]+=1
-    print honap
+    return honap
+alvas(1975,5,1)
