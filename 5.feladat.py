@@ -4,3 +4,4 @@ def sorozat(a):
     e = []
     num = 0
     db = 0
+    or j in range(0, len(a) - 1):
