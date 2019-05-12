@@ -3,3 +3,4 @@ def sorozat(a):
     h = []
     e = []
     num = 0
+    db = 0
