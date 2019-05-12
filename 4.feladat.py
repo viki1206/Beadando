@@ -16,6 +16,6 @@ def alvas(ev, ho, nap):
         ej=6+honap[ho-1]-nap
         for i in range (ho,11):
             ej+=honap[i]
-    return print(ej)
+    print(ej)
 
-alvas(2000, 1, 29)
+alvas(2000, 12, 6)
