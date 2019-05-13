@@ -6,6 +6,5 @@ def sorozat(a):
     db = 0
     for j in range(0,len(a)-1):
         h.append(a[j])
-        for k in
-            range(j + 1, len(a) - 1):
+        for k in  range(j + 1, len(a) - 1):
 
