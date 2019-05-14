@@ -8,4 +8,6 @@ def sorozat(a):
         h.append(a[j])
         for k in  range(j + 1, len(a) - 1):
             if i == v:
+                t += k
+
 
