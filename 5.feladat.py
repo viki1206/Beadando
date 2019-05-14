@@ -7,4 +7,5 @@ def sorozat(a):
     for j in range(0,len(a)-1):
         h.append(a[j])
         for k in  range(j + 1, len(a) - 1):
+            if i == v:
 
