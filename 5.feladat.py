@@ -10,6 +10,6 @@ def sorozat(a):
             if i == v:
                 t += k
             else:
-                str = j.lower()
+                str = str.lower()
 
 
