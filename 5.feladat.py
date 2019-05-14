@@ -9,6 +9,6 @@ def sorozat(a):
         for k in  range(j + 1, len(a) - 1):
             if i == v:
                 t += k
-            else
+            else:
 
 
