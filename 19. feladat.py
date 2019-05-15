@@ -15,3 +15,7 @@ def fordito(szoveg,irany):
     ' ': '\t',     '': ' ',       '.': '.-.-.-',
     ',': '--..--', '?': '..--..', '!': '-.-.--'
     }
+    if irany=="MORSE":
+        for char in szoveg:
+            alak+=CODE[char.upper()]+' '
+        alak=alak[0:len(alak)-1]
