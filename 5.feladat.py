@@ -4,12 +4,24 @@ def sorozat(a):
     e = []
     num = 0
     db = 0
-    for j in range(0,len(a)-1):
+    for j in range(0, len(a) - 1):
         h.append(a[j])
-        for k in  range(j + 1, len(a) - 1):
-            if i == v:
-                t += k
+        for k in range(j + 1, len(a) - 1):
+            for i in range(k, len(a)):
+                if h[db] < a[i]:
+                    h.append(a[i])
+                    db += 1
+            if num < len(h):
+                e = h
+                num = len(h)
+                h = [a[j]]
+                db = 0
             else:
-                str = str.upper()
+                h = [a[j]]
+                db = 0
+    print(num, ': ', e)
+sorozat(a)
+
+
 
 
