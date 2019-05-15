@@ -19,3 +19,10 @@ def fordito(szoveg,irany):
         for char in szoveg:
             alak+=CODE[char.upper()]+' '
         alak=alak[0:len(alak)-1]
+    else:
+        szoveg += ' '
+        alak = ''
+        szavak = ''
+        for char in szoveg:
+            if (char != ' ' and char != '\t'):
+                szavak += char
