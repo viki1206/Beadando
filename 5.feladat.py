@@ -1,4 +1,4 @@
-def sorozat(a):
+def sorozat():
     a = [1, 7, 3, 5, 4, 2]
     h = []
     e = []
@@ -20,7 +20,7 @@ def sorozat(a):
                 h = [a[j]]
                 db = 0
     print(num, ': ', e)
-sorozat(a)
+sorozat()
 
 
 
