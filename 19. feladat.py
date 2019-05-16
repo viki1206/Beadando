@@ -19,13 +19,13 @@ def fordito(szoveg,irany):
 
     else:
         szoveg += ' '
-        szavak = ''
+        betuk = ''
         for char in szoveg:
             if char != ' ' and char != '\t':
-                szavak += char
+                betuk += char
             elif char == ' ' or char == '\t':
-                alak += VISSZA[szavak]
-                szavak = ''
+                alak += VISSZA[betuk]
+                betuk = ''
                 if char == '\t':
                     alak += ' '
     print(alak)
