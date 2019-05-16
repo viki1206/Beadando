@@ -16,3 +16,15 @@ def fordito(szoveg,irany):
         for c in szoveg:
             alak += ODA[c.upper()] + ' '
         alak = alak[0:len(alak) - 1]
+
+    else:
+        szavak = ''
+        for char in szoveg:
+            if char != ' ' and char != '\t':
+                szavak += char
+            elif char == ' ' or char == '\t':
+                alak += VISSZA[szavak]
+                szavak = ''
+                if char == '\t':
+                    alak += ' '
+    print(alak)
