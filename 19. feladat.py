@@ -29,4 +29,4 @@ def fordito(szoveg,irany):
                 if char == '\t':
                     alak += ' '
     print(alak)
-    fordito("ez a program", "morse")
+fordito("ez a program", "morse")
