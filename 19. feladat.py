@@ -28,3 +28,4 @@ def fordito(szoveg,irany):
                 if char == '\t':
                     alak += ' '
     print(alak)
+    fordito("szia hello", "morse")
