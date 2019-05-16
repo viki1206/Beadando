@@ -18,6 +18,7 @@ def fordito(szoveg,irany):
         alak = alak[0:len(alak) - 1]
 
     else:
+        szoveg += ' '
         szavak = ''
         for char in szoveg:
             if char != ' ' and char != '\t':
@@ -28,4 +29,4 @@ def fordito(szoveg,irany):
                 if char == '\t':
                     alak += ' '
     print(alak)
-    fordito("szia hello", "morse")
+    fordito("ez a program", "morse")
