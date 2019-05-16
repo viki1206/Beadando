@@ -11,3 +11,8 @@ def fordito(szoveg,irany):
     VISSZA=dict(zip(morse,karakterek))
 
     alak = ''
+
+    if irany.upper() == "MORSE":
+        for c in szoveg:
+            alak += ODA[c.upper()] + ' '
+        alak = alak[0:len(alak) - 1]
